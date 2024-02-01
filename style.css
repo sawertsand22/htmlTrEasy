@@ -1,25 +1,31 @@
 body
 {
-    background-color: gray;
-    padding: 50px;
-    
+    background-color: aqua;
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 .site
-{ background-color: white;
+
+{
+     background-color: white;
     position: relative;
     align-items: center;
     width: 600px;
-    border: 1px solid black;
     margin: auto;
-    box-shadow: 10px 5px 5px rgb(31, 1, 1);
+
+    background-position: center top;
+    
+
+   
 }
 .container {
     
     display: inline-block;
 align-items: center;
 text-align: center;
-padding: 20px;
-gap: 24px;
+padding: 2rem;
+gap: 2.4rem;
 
 }
 .btn {
@@ -42,6 +48,7 @@ p{
 .section1
 {
     padding: 16px;
+   
 }
 #s1{
     display: flex;
@@ -79,4 +86,18 @@ footer{
     width: 400px;
     display: inline;
     text-align: center;
+}
+
+@media only screen 
+and (max-width : 320px) {
+.site
+{ 
+   
+    
+    width: auto; 
+    
+    
+   
+}
+
 }
