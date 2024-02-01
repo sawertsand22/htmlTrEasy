@@ -31,5 +31,32 @@ a{
 }
 p{
      font-family: "Noto Sans";
-     font-size: 19px;
+     
+}
+.section1
+{
+    padding: 16px;
+}
+#s1{
+    display: flex;
+}
+#child1_s1
+{
+    width: 50%;
+}
+#child2_s1
+{
+    width: 50%;
+}
+.lastWord{
+padding: 30px;
+}
+.alt-text{
+    font-family: "Apercu Pro";
+    font-size: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 13;
 }
