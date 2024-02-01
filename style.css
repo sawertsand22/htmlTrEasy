@@ -1,11 +1,17 @@
-
-.site
+body
 {
+    background-color: gray;
+    padding: 50px;
+    
+}
+.site
+{ background-color: white;
     position: relative;
     align-items: center;
     width: 600px;
     border: 1px solid black;
     margin: auto;
+    box-shadow: 10px 5px 5px rgb(31, 1, 1);
 }
 .container {
     
@@ -31,7 +37,7 @@ a{
 }
 p{
      font-family: "Noto Sans";
-     
+    
 }
 .section1
 {
@@ -59,4 +65,18 @@ footer{
     padding: 20px;
     text-align: center;
     font-size: 13;
+}
+
+.footer_icons{
+    padding: 20px;
+}
+.ft_icons
+{
+    gap: 26px;
+}
+.footer_lastword
+{
+    width: 400px;
+    display: inline;
+    text-align: center;
 }
